@@ -3,3 +3,4 @@ REQUIRES:
 python 3
 darkdetect
 , for linux, you may need a venv
+no warranties!
