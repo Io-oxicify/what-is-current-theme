@@ -2,11 +2,11 @@ import darkdetect
 import time
 
 
-last = None
+l = None
 
 while True:
-    current = darkdetect.theme()
-    if current != last:
-       print("theme is:", current)
-       last = current
+    t = darkdetect.theme()
+    if t != l:
+       print("theme is:", t)
+       l = t
     time.sleep(1)
